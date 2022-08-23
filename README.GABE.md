@@ -11,6 +11,9 @@ wasm-pack build
 npm init wasm-app www
 npm install
 npm run start
+
+npm run build
+npx serve ./dist
 ```
 
 ```json
