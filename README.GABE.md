@@ -8,6 +8,9 @@ cargo generate --git https://github.com/rustwasm/wasm-pack-template
 cd wasm-game-of-life
 wasm-pack build
 
+# test
+wasm-pack test --firefox --headless
+
 npm init wasm-app www
 npm install
 npm run start
