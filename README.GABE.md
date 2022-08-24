@@ -20,6 +20,10 @@ npx serve ./dist
 
 cargo install cargo-benchcmp
 cargo bench | tee before.txt
+
+wasm-pack login
+wasm-pack build
+wasm-pack publish
 ```
 
 ```json
