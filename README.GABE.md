@@ -17,6 +17,9 @@ npm run start
 
 npm run build
 npx serve ./dist
+
+cargo install cargo-benchcmp
+cargo bench | tee before.txt
 ```
 
 ```json
